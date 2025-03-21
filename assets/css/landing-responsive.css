@@ -1,0 +1,183 @@
+/*==============
+	Page General css
+=================*/
+@media only screen and (max-width: 1366px) {
+	.page-intro h1 {
+		font-size: 30px;
+		line-height: 47px;
+	}
+	.page-intro .typer {
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width: 1199px) {
+	.page-intro h1 {
+		font-size: 28px;
+	}
+	.page-intro .typer {
+		font-size: 28px;
+	}
+	.preview-image-inner {
+		max-height: 220px;
+	}
+	.page-hero .anim-box .img-3,
+	.page-hero .anim-box .img-7,
+	.page-hero .anim-box .img-6 {
+		display: none;
+	}
+	.page-hero .anim-box .img-4 {
+		bottom: 25px;
+	}
+	.key-box {
+		height: 200px;
+	}
+	.hero-details .desk-m {
+		width: 160px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.key-box .features-caption {
+		display: none;
+	}
+	.disp-block-none {
+		display: none;
+	}
+	.disp-block {
+		width: 100%;
+	}
+	.page-intro h1 {
+		font-size: 26px;
+	}
+	.page-intro .typer {
+		font-size: 26px;
+	}
+	.preview-image-inner {
+		max-height: 270px;
+	}
+	.single-portfolio-item.other a {
+		height: 230px;
+	}
+	.page-hero .anim-box .img-9,
+	.page-hero .anim-box .img-10 {
+		display: none;
+	}
+	.features-caption {
+		display: none;
+	}
+	.features-caption-r {
+		display: block;
+	}
+	.section-header .sub-title {
+		width: 100%;
+	}
+	.dis-none {
+		display: none;
+	}
+	.features-caption-r {
+		color: #777;
+	}
+	.disp-block {
+		text-align: center;
+	}
+	.page-intro .type {
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.er-col-5 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 25%;
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.portfolio-list .single-portfolio-item {
+		max-width: 350px;
+		margin: auto;
+	}
+	.pp-section {
+		padding: 50px 0 20px 0;
+	}
+	.bg-shape {
+		padding-bottom: 100px;
+	}
+	.page-intro h1 {
+		font-size: 24px;
+	}
+	.page-intro .typer {
+		font-size: 24px;
+	}
+	.preview-image-inner {
+		max-height: 300px;
+	}
+	.card-title {
+		margin-bottom: 15px;
+		text-align: center;
+		font-size: 15px;
+	}
+	.single-portfolio-item.other a {
+		height: 360px;
+	}
+	.page-hero .overlay {
+		display: none;
+	}
+	.page-hero .anim-box .img-1,
+	.page-hero .anim-box .img-2,
+	.page-hero .anim-box .img-4,
+	.page-hero .anim-box .img-5,
+	.page-hero .anim-box .img-8 {
+		display: none;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.er-col-5 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 33.33%;
+		flex: 0 0 33.33%;
+		max-width: 33.33%;
+	}
+	.page-hero {
+		height: 80vh;
+	}
+	.key-box {
+		height: 280px;
+	}
+	.page-intro h1 {
+		font-size: 22px;
+	}
+	.page-intro .typer {
+		font-size: 22px;
+	}
+	.page-intro h2 {
+		font-size: 22px;
+	}
+	.page-intro h2:after {
+		width: 86px;
+		height: 46px;
+	}
+	.single-portfolio-item.other a {
+		height: 260px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.page-intro h1 {
+		font-size: 21px;
+	}
+	.page-intro .typer {
+		font-size: 21px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.page-intro h1 {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	.page-intro .typer {
+		font-size: 20px;
+	}
+	.page-intro p {
+		font-size: 16px;
+	}
+	.single-portfolio-item.other a {
+		height: 200px;
+	}
+}

@@ -1,0 +1,57 @@
+/* Responsive CSS File */
+@media (max-width: 768px) {
+	.page-section .content-detail {
+		padding: 0 15px;
+	}
+	.page-section .content-detail .pendulum {
+		width: 160px;
+		height: 160px;
+		bottom: -150px;
+		left: -70px;
+	}
+	.page-section .content-detail .pendulum-shadow {
+		width: 100px;
+		margin: 170px auto 0;
+	}
+	.page-section .content-detail .global-title {
+		font-size: 120px;
+		font-weight: 700;
+	}
+	.page-section .content-detail .sub-title {
+		font-weight: 500;
+		font-size: 25px;
+	}
+	.page-section .content-detail .detail-text {
+		font-size: 14px;
+	}
+}
+@media (max-width: 576px) {
+	.page-section .content-detail .pendulum-platform {
+		width: 320px;
+	}
+	.page-section .content-detail .text-detail {
+		padding-top: 280px;
+	}
+	.page-section .content-detail .pendulum-shadow {
+		display: none;
+	}
+}
+@media (max-width: 480px) {
+	.page-section .content-detail {
+		padding: 0 15px;
+	}
+	.page-section .content-detail .global-title {
+		font-size: 80px;
+		font-weight: 600;
+	}
+	.page-section .content-detail .sub-title {
+		font-weight: 500;
+		font-size: 22px;
+	}
+}
+@media (max-width: 360px) {
+	.page-section .content-detail .pendulum-platform {
+		width: 300px;
+	}
+}
+/*# sourceMappingURL=error-page-responsive.css.map */

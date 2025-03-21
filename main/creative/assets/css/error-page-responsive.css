@@ -1,0 +1,59 @@
+/* Responsive CSS File */
+@media (max-width: 768px) {
+	.page-section .content-detail {
+		padding: 0 15px;
+	}
+	.page-section .content-detail .global-title {
+		font-size: 120px;
+		font-weight: 700;
+	}
+	.page-section .content-detail .sub-title {
+		font-weight: 500;
+		font-size: 25px;
+	}
+	.page-section .content-detail .detail-text {
+		font-size: 14px;
+	}
+}
+@media (max-width: 480px) {
+	.page-section .content-detail .detail-text {
+		padding: 0 15px;
+	}
+	.page-section .content-detail .container-txt {
+		width: 300px;
+		height: 160px;
+	}
+	.page-section .content-detail .container-txt h1 {
+		font-size: 90px;
+		font-weight: 600;
+	}
+	.page-section .content-detail .container-txt .blobs_2,
+	.page-section .content-detail .container-txt .blobs_6 {
+		display: none;
+	}
+	.page-section .content-detail .container-txt .blobs_3 {
+		width: 60px;
+		height: 60px;
+		top: 87px;
+		left: 47px;
+	}
+	.page-section .content-detail .container-txt .blobs_4 {
+		width: 50px;
+		height: 50px;
+		top: 97px;
+		left: 123px;
+	}
+	.page-section .content-detail .container-txt .blobs_5 {
+		width: 30px;
+		height: 30px;
+		top: 39px;
+		left: 70px;
+	}
+	.page-section .content-detail .container-txt .blobs_7 {
+		left: 146px;
+	}
+	.page-section .content-detail .container-txt .sub-title {
+		font-weight: 500;
+		font-size: 22px;
+	}
+}
